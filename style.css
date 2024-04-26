@@ -1,45 +1,17 @@
+h1 {
+    color: #007bff;
+}
 .container {
     background-color: skyblue;
-}
-
-#announcement-container {
-    text-align: center;
-    margin-top: 20px;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-}
-
-#show-announcements-btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 #show-announcements-btn:hover {
     background-color: #0056b3;
 }
 
-#announcements {
-    margin-top: 10px;
-    text-align: left;
-}
-
-#dashboard-container {
-    display: flex;
-}
-
 #sidebar {
     width: 200px;
     background-color: #f0f0f0;
-    padding: 20px;
-}
-
-#content {
-    flex-grow: 1;
     padding: 20px;
 }
 
@@ -60,6 +32,3 @@
     background-color: #0056b3;
 }
 
-#announcements {
-    display: none; /* Initially hide the announcements */
-}
