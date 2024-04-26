@@ -7,21 +7,21 @@ function fetchAnnouncements() {
     ];
 }
 
-// // Function to display announcements
-// function displayAnnouncements() {
-//     var announcementsContainer = document.getElementById("announcements");
-//     var announcements = fetchAnnouncements();
+// Function to display announcements
+function displayAnnouncements() {
+    var announcementsContainer = document.getElementById("announcements");
+    var announcements = fetchAnnouncements();
 
-//     // Clear previous announcements
-//     announcementsContainer.innerHTML = "";
+    // Clear previous announcements
+    announcementsContainer.innerHTML = "";
 
-//     // Display announcements as HTML paragraphs
-//     announcements.forEach(function(announcement) {
-//         var paragraph = document.createElement("p");
-//         paragraph.textContent = announcement;
-//         announcementsContainer.appendChild(paragraph);
-//     });
-// }
+    // Display announcements as HTML paragraphs
+    announcements.forEach(function(announcement) {
+        var paragraph = document.createElement("p");
+        paragraph.textContent = announcement;
+        announcementsContainer.appendChild(paragraph);
+    });
+}
 
 // // Event listener for button click
 // document.getElementById("show-announcements-btn").addEventListener("click", displayAnnouncements);
