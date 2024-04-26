@@ -12,9 +12,6 @@ function displayAnnouncements() {
     var announcementsContainer = document.getElementById("announcements");
     var announcements = fetchAnnouncements();
 
-    // Clear previous announcements
-    announcementsContainer.innerHTML = "";
-
     // Display announcements as HTML paragraphs
     announcements.forEach(function(announcement) {
         var paragraph = document.createElement("p");
@@ -23,5 +20,5 @@ function displayAnnouncements() {
     });
 }
 
-// // Event listener for button click
-// document.getElementById("show-announcements-btn").addEventListener("click", displayAnnouncements);
+// Add event listener for button click
+document.getElementById("show-announcements-btn").addEventListener("click", displayAnnouncements);
