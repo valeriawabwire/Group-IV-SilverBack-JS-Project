@@ -18,6 +18,7 @@ padding:10px;
 color: white;
 transition: opacity 0.15;
 box-shadow: 5px 5px 10px black;
+}
 h1 {
     color: #007bff;
 }
@@ -49,7 +50,7 @@ color: black;
 font-size: 2rem;
    margin-bottom: 1rem;
 }
-action="action_page.php"
+
 #people-btn,
 #show-announcements-btn {
     display: block;
