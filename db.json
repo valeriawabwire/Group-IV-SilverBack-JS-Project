@@ -1,0 +1,74 @@
+{
+    "Fee Details": [
+        {
+          "id": 1,
+          "FirstName": "Gerald",
+          "LastName": "Muli",
+          "FeePaid(ksh)":"100,000",
+          "FeeBalance(ksh)":"100,000" 
+        },
+        {
+            "id": "2",
+          "FirstName": "Edwin",
+          "LastName": "Mwangi",
+          "FeePaid(ksh)":"75,000",
+          "FeeBalance(ksh)":"125,000"
+        },
+        {
+           "id":"3",
+            "FirstName": "Abdi",
+            "LastName": "Shukri",
+            "FeePaid(ksh)":"50,000",
+            "FeeBalance(ksh)":"150,000"
+          },
+          {
+           "id":"4",
+            "FirstName": "Grace",
+            "LastName": "Gitau",
+            "FeePaid(ksh)":"100,000",
+            "FeetBalance(ksh)":"100,000"
+          },
+          {
+            "id":"5",
+            "FirstName": "Brian",
+            "LastName": "Onduso",
+            "FeePaid(ksh)":"145,000",
+            "FeeBalance(ksh)":"55,000"
+          },
+          {
+            "id":"6",
+            "FirstName": "Valeria",
+            "LastName": "Wabwire",
+            "FeePaid(ksh)":"100,000",
+            "FeeBalance(ksh)":"100,000"
+          },
+          {
+            "id":"7",
+            "FirstName": "Ernest",
+            "LastName": "Musau",
+            "FeePaid(ksh)":"77,000",
+            "FeeBalance(ksh)":"123,000"
+          },
+          {
+            "id":"8",
+            "FirstName": "Emmanuel",
+            "LastName": "Waseth",
+            "FeePaid(ksh)":"123,000",
+            "FeetBalance(ksh)":"77,000"
+          },
+          {
+            "id":"9",
+            "FirstName": "Brian",
+            "LastName": "Omondi",
+            "FeePaid(ksh)":"15,000",
+            "FeetBalance(ksh)":"185,000"
+          },
+          {
+            "id":"10",
+            "FirstName": "Sharon",
+            "LastName": "Bygeon",
+            "FeePaid(ksh)":"200,000",
+            "FeetBalance(ksh)":"0.000"
+          }
+    ]
+    }
