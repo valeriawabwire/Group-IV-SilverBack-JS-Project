@@ -1,4 +1,4 @@
-Document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const searchButton = document.getElementsByClassName("btn");
     Array.from(searchButton).forEach(button => {
        button.addEventListener('click', getStudentDetails);
@@ -15,5 +15,5 @@ Document.addEventListener('DOMContentLoaded', function() {
             console.error('Error fetching data:', error);
         });
     }
-    searchButton.addEventListener('onclick', getStudentDetails);
+    
 });
