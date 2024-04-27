@@ -1,20 +1,14 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.student-card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-.student-card h2 {
-    margin-top: 0;
-}
-} 
+.search{
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 40px; 
+    text-align: center; 
+    }
+    .search .container-1 input{
+        width: 100%;
+     } 
 .btn{
 margin-top: 10px;
 background-color: black;
