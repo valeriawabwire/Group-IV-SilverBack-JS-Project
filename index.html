@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <title>Student Fee Management</title>
@@ -13,20 +13,6 @@
 </head>
 
 <body>
-    <h2 class="title">SEARCH NAME</h2>
-    <div class="search">
-        <div class="container-1"> 
-        <form class="example">
-            <input type="text" placeholder="Search.." name="enter name"><br>
-            <button class="btn">SEARCH</button>
-            
-          </form>
-          </div>
-         </div>
-          
-
-</body>
-<script src="index.js"></script>
     <h1>
         <center>feeTrak</center>
     </h1>
@@ -36,14 +22,27 @@
         </h2>
         <div id="students-list"></div>
     </div>
+    <h3 class="title">SEARCH NAME</h3>
+    <div class="search">
+        <div class="container-1">
+            <form class="example">
+                <input type="text" placeholder="Search..." name="enter name"><br>
+                <button class="searchbtn">SEARCH</button>
+                <div id="searchResults"></div>
+
+            </form>
+        </div>
+    </div>
 
     <div id="dashboard-container">
         <div id="sidebar">
+            <h4>Dashboard</h4>
             <button id="people-btn">People</button>
+            <div id="namesContainer"></div>
             <button id="show-announcements-btn">Announcements</button>
         </div>
 
-    <script src="index.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
