@@ -4,15 +4,15 @@
       "id": "1",
       "FirstName": "Gerald",
       "LastName": "Kisilu",
-      "FeePaid": "ksh100,000",
-      "FeeBalance": "ksh100,000"
+      "FeePaid": "ksh153,000",
+      "FeeBalance": "ksh47,000"
     },
     {
       "id": "2",
       "FirstName": "Edwin",
       "LastName": "Mwangi",
-      "FeePaid": "ksh75,000",
-      "FeeBalance": "ksh125,000"
+      "FeePaid": "ksh200,000",
+      "FeeBalance": "ksh0.00"
     },
     {
       "id": "3",
@@ -39,8 +39,8 @@
       "id": "6",
       "FirstName": "Valeria",
       "LastName": "Wabwire",
-      "FeePaid": "ksh100,000",
-      "FeeBalance": "ksh100,000"
+      "FeePaid": "ksh200,000",
+      "FeeBalance": "ksh0.00"
     },
     {
       "id": "7",
@@ -69,6 +69,7 @@
       "LastName": "Bygeon",
       "FeePaid": "ksh200,000",
       "FeeBalance": "ksh0.000"
+      "FeetBalance": "ksh0.00"
     }
   ]
 }

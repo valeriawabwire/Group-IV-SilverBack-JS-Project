@@ -94,7 +94,9 @@ body {
 #namesContainer {
     margin-top: 20px;
 }
-
+.namesContainer{
+    background-color: gray;
+}
 
 
 
