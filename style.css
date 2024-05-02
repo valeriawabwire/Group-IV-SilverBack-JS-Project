@@ -88,7 +88,29 @@ h4{
 }
 
 
+.table {
+    width: 80%; 
+    position: relative;
+    left: 180px;
+    top: 200px;
+}
 
+.table th,
+.table td {
+    font-size: 12px;
+}
 
+.table th,
+.table td {
+    padding: 6px; 
+}
 
+.table th,
+.table td {
+    border: 1px solid grey;
+}
+.table th,
+.table td {
+    text-align: center;
 
+}
