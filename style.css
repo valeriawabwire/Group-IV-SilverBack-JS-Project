@@ -3,12 +3,12 @@
    margin: 20px auto;
    width: 100%;
    max-width: 150px;
-   height: 40px;
+   height: 30px;
    text-align: center;
 }
 
 .search .container-1 input {
-   width: 100%;
+   width: 75%;
 }
 
 .btn {
@@ -18,16 +18,25 @@
    border-radius: 10px;
    padding: 10px;
    color: white;
-   transition: opacity 0.15s; /* Added 's' to specify seconds */
+   transition: opacity 0.15;
    box-shadow: 5px 5px 10px black;
 }
 
-.btn h1 { /* Added to specify h1 inside .btn */
+h1 {
    color: #007bff;
+   margin-top: 0%;
+   margin-bottom: -1%;
 }
-
+h2{
+   color: white;
+}
+h4{
+   font-size: larger;
+   color: white;
+}
 .container {
    background-color: skyblue;
+   position: relative;
 }
 
 #show-announcements-btn:hover {
@@ -35,14 +44,18 @@
 }
 
 #sidebar {
-   width: 200px;
-   background-color: #f0f0f0;
+   width: 130px;
+   background-color: skyblue;
    padding: 20px;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0; 
 }
 
-.btn:hover {
+.searchbtn:hover {
    opacity: 0.8;
-   background-color: aqua;
+   background-color: #0056b3;
 }
 
 .btn:active {
@@ -53,7 +66,7 @@
 .title {
    text-align: center;
    color: black;
-   font-size: 2rem;
+   font-size: medium;
    margin-bottom: 1rem;
 }
 
@@ -72,4 +85,7 @@
 #people-btn:hover,
 #show-announcements-btn:hover {
    background-color: #0056b3;
+}
+.namesContainer{
+   background-color: gray;
 }
