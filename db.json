@@ -3,72 +3,72 @@
     {
       "id": "1",
       "FirstName": "Gerald",
-      "LastName": "Muli",
-      "FeePaid(ksh)": "100,000",
-      "FeeBalance(ksh)": "100,000"
+      "LastName": "Kisilu",
+      "FeePaid": "ksh153,000",
+      "FeeBalance": "ksh47,000"
     },
     {
       "id": "2",
       "FirstName": "Edwin",
       "LastName": "Mwangi",
-      "FeePaid(ksh)": "75,000",
-      "FeeBalance(ksh)": "125,000"
+      "FeePaid": "ksh200,000",
+      "FeeBalance": "ksh0.00"
     },
     {
       "id": "3",
       "FirstName": "Abdi",
       "LastName": "Shukri",
-      "FeePaid(ksh)": "50,000",
-      "FeeBalance(ksh)": "150,000"
+      "FeePaid": "ksh50,000",
+      "FeeBalance": "ksh150,000"
     },
     {
       "id": "4",
       "FirstName": "Grace",
       "LastName": "Gitau",
-      "FeePaid(ksh)": "100,000",
-      "FeetBalance(ksh)": "100,000"
+      "FeePaid": "ksh100,000",
+      "FeetBalance": "ksh100,000"
     },
     {
       "id": "5",
       "FirstName": "Brian",
       "LastName": "Onduso",
-      "FeePaid(ksh)": "145,000",
-      "FeeBalance(ksh)": "55,000"
+      "FeePaid": "ksh145,000",
+      "FeeBalance": "ksh55,000"
     },
     {
       "id": "6",
       "FirstName": "Valeria",
       "LastName": "Wabwire",
-      "FeePaid(ksh)": "100,000",
-      "FeeBalance(ksh)": "100,000"
+      "FeePaid": "ksh200,000",
+      "FeeBalance": "ksh0.00"
     },
     {
       "id": "7",
       "FirstName": "Ernest",
       "LastName": "Musau",
-      "FeePaid(ksh)": "77,000",
-      "FeeBalance(ksh)": "123,000"
+      "FeePaid": "ksh77,000",
+      "FeeBalance": "ksh123,000"
     },
     {
       "id": "8",
       "FirstName": "Emmanuel",
       "LastName": "Waseth",
-      "FeePaid(ksh)": "123,000",
-      "FeetBalance(ksh)": "77,000"
+      "FeePaid": "ksh123,000",
+      "FeetBalance": "ksh77,000"
     },
     {
       "id": "9",
       "FirstName": "Brian",
       "LastName": "Omondi",
-      "FeePaid(ksh)": "15,000",
-      "FeetBalance(ksh)": "185,000"
+      "FeePaid": "ksh15,000",
+      "FeetBalance": "ksh185,000"
     },
     {
       "id": "10",
       "FirstName": "Sharon",
       "LastName": "Bygeon",
-      "FeePaid(ksh)": "200,000",
-      "FeetBalance(ksh)": "0.000"
+      "FeePaid": "ksh200,000",
+      "FeetBalance": "ksh0.00"
     }
   ]
 }

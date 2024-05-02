@@ -1,91 +1,98 @@
 .search {
-   align-items: center;
-   margin: 20px auto;
-   width: 100%;
-   max-width: 150px;
-   height: 30px;
-   text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    text-align: center;
 }
 
 .search .container-1 input {
-   width: 75%;
+    width: 75%;
 }
 
 .btn {
-   margin-top: 10px;
-   background-color: black;
-   cursor: pointer;
-   border-radius: 10px;
-   padding: 10px;
-   color: white;
-   transition: opacity 0.15;
-   box-shadow: 5px 5px 10px black;
+    margin-top: 10px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    transition: opacity 0.15;
+    box-shadow: 5px 5px 10px black;
 }
 
 h1 {
-   color: #007bff;
-   margin-top: 0%;
-   margin-bottom: -1%;
+    color: #007bff;
+    margin-top: 0%;
+    margin-bottom: -1%;
 }
 h2{
-   color: white;
+    color: white;
 }
 h4{
-   font-size: larger;
-   color: white;
+    font-size: larger;
+    color: white;
 }
 .container {
-   background-color: skyblue;
-   position: relative;
+    background-color: skyblue;
+    position: relative;
 }
 
 #show-announcements-btn:hover {
-   background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 #sidebar {
-   width: 130px;
-   background-color: skyblue;
-   padding: 20px;
-   height: 100vh;
-   position: fixed;
-   top: 0;
-   left: 0; 
+    width: 130px;
+    background-color: skyblue;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0; 
 }
 
 .searchbtn:hover {
-   opacity: 0.8;
-   background-color: #0056b3;
+    opacity: 0.8;
+    background-color: #0056b3;
 }
 
 .btn:active {
-   opacity: 0.6;
-   background-color: aqua;
+    opacity: 0.6;
+    background-color: aqua;
 }
 
 .title {
-   text-align: center;
-   color: black;
-   font-size: medium;
-   margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    margin-bottom: 1rem;
 }
 
 #people-btn,
 #show-announcements-btn {
-   display: block;
-   margin-bottom: 10px;
-   padding: 10px 20px;
-   background-color: #007bff;
-   color: #fff;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #people-btn:hover,
 #show-announcements-btn:hover {
-   background-color: #0056b3;
+    background-color: #0056b3;
 }
 .namesContainer{
-   background-color: gray;
+    background-color: gray;
 }
+
+
+    
+    
+
+
+
