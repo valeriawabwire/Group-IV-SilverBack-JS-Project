@@ -1,6 +1,12 @@
 ## GROUP PROJECT
 
 ## By 
+This project was a group work effort participated by:
+Gerald Kisilu
+Abdi Shukri
+Valeria Wabwire
+Edwin Mwangi
+Emmanuel Waseth
 
 ## Description
 
@@ -12,7 +18,7 @@ You use git clone to be able to download the documents in the GitHub
 Git
 
 ## Live Link
-
+https://geraldkisilu.github.io/Group-IV-SilverBack-JS-Project/
 
 ## Technologies used
 1.HTML
