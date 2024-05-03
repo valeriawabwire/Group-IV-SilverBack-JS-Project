@@ -89,8 +89,34 @@ h4 {
 #show-announcements-btn:hover {
     background-color: #0056b3;
 }
+.namesContainer{
+    background-color: gray;
+}
 
+.table {
+    width: 80%; 
+    position: relative;
+    left: 180px;
+    top: 200px;
+}
 
+.table th,
+.table td {
+    font-size: 12px;
+}
+
+.table th,
+.table td {
+    padding: 6px; 
+}
+
+.table th,
+.table td {
+    border: 1px solid grey;
+}
+.table th,
+.table td {
+    text-align: center;
 
 .table {
     width: 80%;
@@ -116,7 +142,7 @@ h4 {
    
     color: black;
 }
-
+    
 .table th {
     background-color:skyblue; 
     font-weight: 1000; 
