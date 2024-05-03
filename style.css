@@ -211,7 +211,40 @@ p {
 .fee-cleared {
     background-color: green;
 }
-
+body {
+    margin: 25px;
+  }
+  
+  .icon-button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #757272;
+    border: none;
+    border-radius: 50px;
+    float: right;
+  }
+  
+  .icon-button:active {
+    background: #cccccc;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: rgb(236, 83, 83);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  
 .fee-pending {
     background-color: red;
 }
