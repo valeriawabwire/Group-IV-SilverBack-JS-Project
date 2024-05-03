@@ -87,5 +87,11 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
         resultsContainer.classList.add('visible');
     }
 });
+const notification = document.getElementsByClassName('icon-button')[0];
+notification.addEventListener('click', function () {
+    alert("1. This is a reminder to check on your payment dates for the stipulated installments in the table provided for you");
+    alert("2. If your status is on red, kindly remember to clear your balance before the given period ends, otherwise disregard this notification if you have cleared(green)");
+});
+
 
 
