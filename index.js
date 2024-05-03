@@ -42,8 +42,9 @@ document.getElementById('people-btn').addEventListener('click', function () {
     });
 });
 
+
 document.querySelector('.searchbtn').addEventListener('click', function (event) {
-    event.preventDefault(); // Prevent the form from submitting which reloads the page
+    event.preventDefault();
     const inputName = document.querySelector('[name="enter name"]').value.toLowerCase();
     const resultsContainer = document.getElementById('searchResults');
     resultsContainer.innerHTML = ''; // Clear previous results
@@ -58,27 +59,26 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
         { id: "7", FirstName: "Ernest", LastName: "Musau", FeePaid: "ksh77,000", FeeBalance: "ksh123,000" },
         { id: "8", FirstName: "Emmanuel", LastName: "Waseth", FeePaid: "ksh123,000", FeeBalance: "ksh77,000" },
         { id: "9", FirstName: "Brian", LastName: "Omondi", FeePaid: "ksh15,000", FeeBalance: "ksh185,000" },
-        { id: "10", FirstName: "Sharon", LastName: "Bygeon", FeePaid: "ksh200,000", FeeBalance: "ksh0.00" }
-    ];
+        { id: "10", FirstName: "Sharon", LastName: "Bygeon", FeePaid: "ksh200,000", FeeBalance: "ksh0.00" }   
+];
 
-    // Filter the array for names that include the search input
     const filteredResults = feeDetails.filter(person =>
         person.FirstName.toLowerCase().includes(inputName) || person.LastName.toLowerCase().includes(inputName)
     );
 
-    // Display the results
     if (filteredResults.length > 0) {
         filteredResults.forEach(person => {
             const personDiv = document.createElement('div');
             personDiv.innerHTML = `<strong>${person.FirstName} ${person.LastName}</strong><br>Fee Paid: ${person.FeePaid}<br>Fee Balance: ${person.FeeBalance}`;
             resultsContainer.appendChild(personDiv);
-
         });
+        resultsContainer.classList.remove('hidden');
+        resultsContainer.classList.add('visible');
     } else {
         resultsContainer.innerHTML = 'No results found';
+        resultsContainer.classList.remove('hidden');
+        resultsContainer.classList.add('visible');
     }
-
 });
-
 
 

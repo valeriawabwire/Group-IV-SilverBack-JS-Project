@@ -26,7 +26,7 @@
       "FirstName": "Grace",
       "LastName": "Gitau",
       "FeePaid": "ksh100,000",
-      "FeetBalance": "ksh100,000"
+      "FeeBalance": "ksh100,000"
     },
     {
       "id": "5",
@@ -54,21 +54,21 @@
       "FirstName": "Emmanuel",
       "LastName": "Waseth",
       "FeePaid": "ksh123,000",
-      "FeetBalance": "ksh77,000"
+      "FeeBalance": "ksh77,000"
     },
     {
       "id": "9",
       "FirstName": "Brian",
       "LastName": "Omondi",
       "FeePaid": "ksh15,000",
-      "FeetBalance": "ksh185,000"
+      "FeeBalance": "ksh185,000"
     },
     {
       "id": "10",
       "FirstName": "Sharon",
       "LastName": "Bygeon",
       "FeePaid": "ksh200,000",
-      "FeetBalance": "ksh0.00"
+      "FeeBalance": "ksh0.00"
     }
   ]
 }
