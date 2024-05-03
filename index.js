@@ -40,6 +40,7 @@ document.getElementById('people-btn').addEventListener('click', function () {
         p.textContent = name;
         namesContainer.appendChild(p);
     });
+    
 });
 
 
