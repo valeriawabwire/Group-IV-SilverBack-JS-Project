@@ -59,8 +59,8 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
         { id: "7", FirstName: "Ernest", LastName: "Musau", FeePaid: "ksh77,000", FeeBalance: "ksh123,000" },
         { id: "8", FirstName: "Emmanuel", LastName: "Waseth", FeePaid: "ksh123,000", FeeBalance: "ksh77,000" },
         { id: "9", FirstName: "Brian", LastName: "Omondi", FeePaid: "ksh15,000", FeeBalance: "ksh185,000" },
-        { id: "10", FirstName: "Sharon", LastName: "Bygeon", FeePaid: "ksh200,000", FeeBalance: "ksh0.00" }   
-];
+        { id: "10", FirstName: "Sharon", LastName: "Bygeon", FeePaid: "ksh200,000", FeeBalance: "ksh0.00" }
+    ];
 
     const filteredResults = feeDetails.filter(person =>
         person.FirstName.toLowerCase().includes(inputName) || person.LastName.toLowerCase().includes(inputName)
@@ -69,7 +69,13 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
     if (filteredResults.length > 0) {
         filteredResults.forEach(person => {
             const personDiv = document.createElement('div');
-            personDiv.innerHTML = `<strong>${person.FirstName} ${person.LastName}</strong><br>Fee Paid: ${person.FeePaid}<br>Fee Balance: ${person.FeeBalance}`;
+            const backgroundColor = person.FeeBalance === "ksh0.00" ? 'green' : 'red';
+            personDiv.style.backgroundColor = backgroundColor;
+            personDiv.innerHTML = `
+                <strong>${person.FirstName} ${person.LastName}</strong><br>
+                Fee Paid: ${person.FeePaid}<br>
+                Fee Balance: ${person.FeeBalance}
+            `;
             resultsContainer.appendChild(personDiv);
         });
         resultsContainer.classList.remove('hidden');
