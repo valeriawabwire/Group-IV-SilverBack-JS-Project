@@ -34,15 +34,15 @@ document.getElementById('people-btn').addEventListener('click', function () {
     const names = ['Gerald Kisilu', 'Edwin Mwangi', 'Abdi Shukri', 'Grace Gitau', 'Brian Onduso', 'Valeria Wabwire',
         'Ernest Musau', 'Emmanuel Waseth', 'Brian Omondi', 'Sharon Bygeon'];
     const namesContainer = document.getElementById('namesContainer');
-    namesContainer.innerHTML = '';
+    namesContainer.innerHTML = ''; // Clear previous content
     names.forEach(name => {
         const p = document.createElement('p');
         p.textContent = name;
         namesContainer.appendChild(p);
     });
     
+    namesContainer.style.display = 'block'; // Show the container
 });
-
 
 document.querySelector('.searchbtn').addEventListener('click', function (event) {
     event.preventDefault();
@@ -89,9 +89,7 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
 });
 const notification = document.getElementsByClassName('icon-button')[0];
 notification.addEventListener('click', function () {
-    alert("1. This is a reminder to check on your payment dates for the stipulated installments in the table provided for you");
-    alert("2. If your status is on red, kindly remember to clear your balance before the given period ends, otherwise disregard this notification if you have cleared(green)");
+    alert("This is a reminder to check on your payment dates for the stipulated installments in the table provided for you");
+    alert("If your status is on red, kindly remember to clear your balance before the given period ends, otherwise disregard this notification if you have cleared(green)");
 });
-
-
 
