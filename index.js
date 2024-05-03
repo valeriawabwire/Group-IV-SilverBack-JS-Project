@@ -42,8 +42,9 @@ document.getElementById('people-btn').addEventListener('click', function () {
     });
 });
 
+
 document.querySelector('.searchbtn').addEventListener('click', function (event) {
-    event.preventDefault(); // Prevent the form from submitting which reloads the page
+    event.preventDefault();
     const inputName = document.querySelector('[name="enter name"]').value.toLowerCase();
     const resultsContainer = document.getElementById('searchResults');
     resultsContainer.innerHTML = ''; // Clear previous results
@@ -61,30 +62,35 @@ document.querySelector('.searchbtn').addEventListener('click', function (event) 
         { id: "10", FirstName: "Sharon", LastName: "Bygeon", FeePaid: "ksh200,000", FeeBalance: "ksh0.00" }
     ];
 
-    // Filter the array for names that include the search input
     const filteredResults = feeDetails.filter(person =>
         person.FirstName.toLowerCase().includes(inputName) || person.LastName.toLowerCase().includes(inputName)
     );
 
-    // Display the results
     if (filteredResults.length > 0) {
         filteredResults.forEach(person => {
             const personDiv = document.createElement('div');
-            personDiv.innerHTML = `<strong>${person.FirstName} ${person.LastName}</strong><br>Fee Paid: ${person.FeePaid}<br>Fee Balance: ${person.FeeBalance}`;
+            const backgroundColor = person.FeeBalance === "ksh0.00" ? 'green' : 'red';
+            personDiv.style.backgroundColor = backgroundColor;
+            personDiv.innerHTML = `
+                <strong>${person.FirstName} ${person.LastName}</strong><br>
+                Fee Paid: ${person.FeePaid}<br>
+                Fee Balance: ${person.FeeBalance}
+            `;
             resultsContainer.appendChild(personDiv);
-
         });
+        resultsContainer.classList.remove('hidden');
+        resultsContainer.classList.add('visible');
     } else {
         resultsContainer.innerHTML = 'No results found';
+        resultsContainer.classList.remove('hidden');
+        resultsContainer.classList.add('visible');
     }
-
 });
 const notification = document.getElementsByClassName('icon-button')[0];
 notification.addEventListener('click', function () {
     alert("1. This is a reminder to check on your payment dates for the stipulated installments in the table provided for you");
     alert("2. If your status is on red, kindly remember to clear your balance before the given period ends, otherwise disregard this notification if you have cleared(green)");
 });
-
 
 
 

@@ -31,20 +31,31 @@
     </div>
     <h3 class="title">SEARCH NAME</h3>
     
-    <div class="search">
+    <div class="search" style="position: relative;">
         <div class="container-1">
             <form class="example">
                 <input type="text" placeholder="Search...." name="enter name"><br>
                 <button class="searchbtn">SEARCH</button>
-                <div id="searchResults"></div>
-
             </form>
         </div>
+        <div id="searchResults" class="hidden"></div>
     </div>
+    
+    </div>
+    <h4>Hello!
+        <p class="detailContainer">In the pursuit of educational excellence, managing and tracking school fee payments should
+             not be a burden for students or their families. Our website is designed to simplify this 
+             process, ensuring that students can focus on their studies without the stress of fee management. 
+             By providing a clear, user-friendly platform, we help maintain transparency and consistency in 
+             financial obligations related to education. To cater to different financial capabilities, our website
+              offers the flexibility of installment payments. The table provided below details the amounts to be 
+              paid depending on the type of installment chosen. This system is designed to accommodate diverse 
+              financial situations, making education accessible and manageable for everyone.</p>
+    </h4>
 
     <div id="dashboard-container">
         <div id="sidebar">
-            <h4>Dashboard</h4>
+            <h5>Dashboard</h5>
             <button id="people-btn"><i class="fa fa-users"></i>People</button>
             <div id="namesContainer"></div>
             <button id="show-announcements-btn"><i class="fa fa-bullhorn"></i>  Announcements</button>
@@ -57,44 +68,44 @@
                 <tr>
                     
                     <th scope="col">Payment Dates</th>
-                    <th scope="col">Monthly</th>
-                    <th scope="col">Quarterly</th>
-                    <th scope="col">Semi-Annum</th>
-                    <th scope="col">Per-Annum</th>
+                    <th scope="col">1-Installment</th>
+                    <th scope="col">2-Installments</th>
+                    <th scope="col">3-Installments</th>
+                    <th scope="col">4-Installments</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                   
                     <td>5/1/2024</td>
-                    <td>50,000</td>
+                    <td>200,000</td>
                     <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td>68,000</td>
+                    <td>51,000</td>
                 </tr>
                 <tr>
                     
                     <td>1/5/2024</td>
-                    <td>50,000</td>
-                    <td>50,000</td>
                     <td>-</td>
+                    <td>101,000</td>
                     <td>-</td>
+                    <td>51,000</td>
                 </tr>
                 <tr>
                     
                     <td>28/8/2024</td>
-                    <td>50,000</td>
                     <td>-</td>
-                    <td>100,000</td>
                     <td>-</td>
+                    <td>68,000</td>
+                    <td>51,000</td>
                 </tr>
                 <tr>
                     
                     <td>29/12/2024</td>
-                    <td>50,000</td>
-                    <td>50,000</td>
                     <td>-</td>
-                    <td>200,000</td>
+                    <td>101,000</td>
+                    <td>68,000</td>
+                    <td>51,000</td>
                 </tr>
             </tbody>
         </table>
