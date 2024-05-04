@@ -7,9 +7,9 @@
     text-align: center;
 }
 
-.search .container-1 input {
+/* .search .container-1 input {
     width: 75%;
-}
+} */
 
 .btn {
     margin-top: 10px;
@@ -174,10 +174,6 @@ p {
 
 .hidden {
     display: none;
-}
-
-.visible {
-    display: block;
 }
 
 .table th,
