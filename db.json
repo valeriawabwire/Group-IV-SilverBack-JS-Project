@@ -61,14 +61,14 @@
       "FirstName": "Brian",
       "LastName": "Omondi",
       "FeePaid": "ksh15,000",
-      "FeetBalance": "ksh185,000"
+      "FeeBalance": "ksh185,000"
     },
     {
       "id": "10",
       "FirstName": "Sharon",
       "LastName": "Bygeon",
       "FeePaid": "ksh200,000",
-      "FeetBalance": "ksh0.00"
+      "FeeBalance": "ksh0.00"
     }
   ]
 }
