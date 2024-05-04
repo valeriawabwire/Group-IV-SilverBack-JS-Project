@@ -1,5 +1,5 @@
 ## GROUP PROJECT
-
+Javascript project(feeTrak)
 ## By 
 This project was a group work effort participated by:
 Gerald Kisilu
