@@ -1,28 +1,29 @@
-
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Fee Management</title>
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     
+
+
 </head>
-    <div>
-<button class="icon-button">
-    <span class="material-icons">notifications</span>
-    <span class="badge">2</span>
-  </button>
-  </div>
-  <br>
+<div>
+    <button class="icon-button">
+        <span class="material-icons">notifications</span>
+        <span class="badge">2</span>
+    </button>
+</div>
+<br>
+
 <body>
-   
+
     <h1>
         <center>feeTrak</center>
     </h1>
-   
+
     <div class="container">
         <h2>
             <center>Dashboard</center>
@@ -30,7 +31,7 @@
         <div id="students-list"></div>
     </div>
     <h3 class="title">SEARCH NAME</h3>
-    
+
     <div class="search" style="position: relative;">
         <div class="container-1">
             <form class="example">
@@ -40,7 +41,7 @@
         </div>
         <div id="searchResults" class="hidden"></div>
     </div>
-    
+
     </div>
     <h4>Hello!
         <p class="detailContainer">In the pursuit of educational excellence, managing and tracking school fee payments should
@@ -51,22 +52,31 @@
               offers the flexibility of installment payments. The table provided below details the amounts to be 
               paid depending on the type of installment chosen. This system is designed to accommodate diverse 
               financial situations, making education accessible and manageable for everyone..</p>
+        <p class="detailContainer">In the pursuit of educational excellence, managing and tracking school fee payments
+            should
+            not be a burden for students or their families. Our website is designed to simplify this
+            process, ensuring that students can focus on their studies without the stress of fee management.
+            By providing a clear, user-friendly platform, we help maintain transparency and consistency in
+            financial obligations related to education. To cater to different financial capabilities, our website
+            offers the flexibility of installment payments. The table provided below details the amounts to be
+            paid depending on the type of installment chosen. This system is designed to accommodate diverse
+            financial situations, making education accessible and manageable for everyone.</p>
     </h4>
 
     <div id="dashboard-container">
         <div id="sidebar">
             <h5>Dashboard</h5>
-            <button id="people-btn"><i class="fa fa-users"></i>People</button>
-            <div id="namesContainer"></div>
-            <button id="show-announcements-btn"><i class="fa fa-bullhorn"></i>  Announcements</button>
-            <button id="courses-btn"></i>Courses</button>
-            <button id="calendar-btn">calendar</button>
+            <button id="people-btn"><i class="fa fa-users"></i> People</button><br>
+            <button id="show-announcements-btn"><i class="fa fa-bullhorn"></i> Report</button><br>
+            <button id="courses-btn"><i class="fa fa-book"></i> Courses</button><br>
+            <button id="calendar-btn"><i class="fa fa-calendar"></i> Calendar</button><br>
+            <div id="namesContainer" style="display: none;"></div>
         </div>
-       
+
         <table class="table">
             <thead>
                 <tr>
-                    
+
                     <th scope="col">Payment Dates</th>
                     <th scope="col">1-Installment</th>
                     <th scope="col">2-Installments</th>
@@ -76,7 +86,7 @@
             </thead>
             <tbody>
                 <tr>
-                  
+
                     <td>5/1/2024</td>
                     <td>200,000</td>
                     <td>-</td>
@@ -84,7 +94,7 @@
                     <td>51,000</td>
                 </tr>
                 <tr>
-                    
+
                     <td>1/5/2024</td>
                     <td>-</td>
                     <td>101,000</td>
@@ -92,7 +102,7 @@
                     <td>51,000</td>
                 </tr>
                 <tr>
-                    
+
                     <td>28/8/2024</td>
                     <td>-</td>
                     <td>-</td>
@@ -100,7 +110,7 @@
                     <td>51,000</td>
                 </tr>
                 <tr>
-                    
+
                     <td>29/12/2024</td>
                     <td>-</td>
                     <td>101,000</td>
@@ -109,7 +119,7 @@
                 </tr>
             </tbody>
         </table>
-          
+
 
         <script src="index.js"></script>
 </body>
