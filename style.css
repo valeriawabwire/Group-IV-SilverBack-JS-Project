@@ -297,3 +297,10 @@ body {
     margin-right: 8px;
     /* Space between icon and text */
 }
+.report-button{
+    background-color: #007bff;
+    color: white;
+}
+.searchbtn{
+    border-radius: 5px;
+}
