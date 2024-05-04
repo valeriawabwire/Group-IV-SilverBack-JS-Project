@@ -4,9 +4,9 @@ Javascript project(feeTrak)
 This project was a group work effort participated by:
 Gerald Kisilu,
 Abdi Shukri,
-Valeria Wabwire
-Edwin Mwangi
-Emmanuel Waseth
+Valeria Wabwire,
+Edwin Mwangi,
+Emmanuel Waseth.
 
 ## Description
 
