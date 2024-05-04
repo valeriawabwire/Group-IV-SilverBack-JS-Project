@@ -1,3 +1,4 @@
+
 // Define the endpoint for fetching fee details
 const feeEndpoint = 'http://localhost:3000/FeeDetails';
 console.log(feeEndpoint);// Log the endpoint to the console for verification
@@ -39,7 +40,7 @@ document.getElementById('people-btn').addEventListener('click', function () {
         p.textContent = name;
         namesContainer.appendChild(p);
     });
-
+    
     namesContainer.style.display = 'block'; // Show the container
 });
 
@@ -90,15 +91,5 @@ const notification = document.getElementsByClassName('icon-button')[0];
 notification.addEventListener('click', function () {
     alert("This is a reminder to check on your payment dates for the stipulated installments in the table provided for you");
     alert("If your status is on red, kindly remember to clear your balance before the given period ends, otherwise disregard this notification if you have cleared(green)");
-});
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl);
-    });
-
 });
 
